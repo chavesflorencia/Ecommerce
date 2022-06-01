@@ -6,3 +6,5 @@ def probando (request):
         'nombre': 'Florchaaaa'   
     }
     return render(request,'template.html',context = context)
+def index (request):
+    return render (request, 'index.html')
